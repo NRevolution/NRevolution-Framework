@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3EBFC935-3551-44B8-9879-044150776CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{B7B0FF10-0A60-4D3D-ACAC-A0F322A25C83}"
+	ProjectSection(SolutionItems) = preProject
+		.SolutionItems\CommonAssemblyInfo.cs = .SolutionItems\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRevolution.Core", "src\NRevolution.Core\NRevolution.Core.csproj", "{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRevolution.EntityFramework", "src\NRevolution.EntityFramework\NRevolution.EntityFramework.csproj", "{C80E7CB7-6854-45E8-9F40-677EE55FA251}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C80E7CB7-6854-45E8-9F40-677EE55FA251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C80E7CB7-6854-45E8-9F40-677EE55FA251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C80E7CB7-6854-45E8-9F40-677EE55FA251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C80E7CB7-6854-45E8-9F40-677EE55FA251}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A3DFE60-6BDD-4E1C-A234-1E15E3BEF414} = {3EBFC935-3551-44B8-9879-044150776CEA}
+		{C80E7CB7-6854-45E8-9F40-677EE55FA251} = {3EBFC935-3551-44B8-9879-044150776CEA}
+	EndGlobalSection
+EndGlobal
